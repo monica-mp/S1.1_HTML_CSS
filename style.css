@@ -78,14 +78,22 @@
   /*----------------------------------------------------------*/
 /*TABLET*/
 @media only screen and (max-width : 768px) {
+    body {
+        background-color: gray;
+    }
+    
     .main-container {
       background: rgb(250, 250, 11);
       flex-direction: column;
-    }
+    }   
   }
 
   /*MOBILE*/
 @media only screen and (max-width: 480px) {
+    body {
+        background-color: rgb(122, 150, 151);
+    }
+    
     .menu {
       flex-direction: column;    
     }  
