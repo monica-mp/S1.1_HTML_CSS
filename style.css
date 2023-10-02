@@ -74,3 +74,12 @@
     background: rgb(212, 173, 0);
     height: 2rem;
   }
+
+  /*----------------------------------------------------------*/
+/*TABLET*/
+@media only screen and (max-width : 768px) {
+    .main-container {
+      background: rgb(250, 250, 11);
+      flex-direction: column;
+    }
+  }
