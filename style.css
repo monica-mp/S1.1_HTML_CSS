@@ -1,0 +1,76 @@
+* {
+    font-size: 62.5%; /*Tamany font base a 10px*/
+    box-sizing: border-box;
+    margin: 1.5rem;
+    padding: 0.5rem;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .hero {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background: rgb(36, 36, 36);
+  }
+  .menu {
+    background: rgb(19, 53, 128);
+    display: flex;
+  }
+  .menu > div {
+    background: rgb(201, 68, 68);
+    flex: 1;
+    height: 2rem;
+  }
+  .menu-nav {
+    background: rgb(201, 68, 68);
+    flex: 5;
+    height: 2rem;
+  }
+  .title-container {
+    background: rgb(255, 123, 0);
+  }
+  h1 {
+    background: rgb(255, 204, 36);
+    height: 2rem;
+  }
+  
+  .main-container {
+    background: rgb(36, 36, 36);
+    display: flex;
+  }
+  .articles-container {
+    background: rgb(75, 52, 117);
+    display: flex;
+    flex-flow: row wrap;
+    flex: 2 1 auto;
+  }
+  .articles-container > article {
+    background: rgb(60, 116, 189);
+    flex: 1 1 40%;
+    height: 2rem;
+  }
+  .text-section {
+    background: rgb(0, 217, 255);
+    flex: 1 1 100%;
+    height: 2rem;
+  }
+  .aside {
+    background: rgb(214, 46, 46);
+    flex: 1 1 auto;
+  }
+  .aside > div {
+    background: rgb(255, 123, 0);
+    height: 2rem;
+  }
+  
+  .footer {
+    background: rgb(36, 36, 36);
+  }
+  .footer-text {
+    background: rgb(212, 173, 0);
+    height: 2rem;
+  }
